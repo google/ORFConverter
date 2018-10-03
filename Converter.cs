@@ -116,7 +116,7 @@ namespace ORFConverter {
 
     // Possible conversion results.
     public enum ConversionResult {
-      Success = 0,
+      Success,
       CaughtException,
       TagsNotFound,
       FileStructureError,
